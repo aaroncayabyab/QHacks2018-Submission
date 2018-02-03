@@ -32,12 +32,10 @@ public class EnemyHealth : MonoBehaviour
 
 	void Update ()
 	{
-		if(isSinking)
-		{
-			rigidBody.constraints = RigidbodyConstraints.None;
-			transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
-		}
+
+
 	}
+		
 
 
 	public void TakeDamage (int amount, Vector3 hitPoint)
@@ -69,15 +67,12 @@ public class EnemyHealth : MonoBehaviour
 
 		enemyAudio.clip = deathClip;
 		enemyAudio.Play ();
-	}
 
-
-	public void StartSinking ()
-	{
 		GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
 		GetComponent <Rigidbody> ().isKinematic = true;
-		isSinking = true;
 		ScoreManager.score += scoreValue;
 		Destroy (this.gameObject, 2f);
 	}
+
+
 }

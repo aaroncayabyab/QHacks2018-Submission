@@ -2360,6 +2360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9f76c3364cfa44c858fde8838b4ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyManager: {fileID: 114286219064774750, guid: 49bb073a267e12549b17b0745644f671,
+    type: 2}
   startingHealth: 100
   currentHealth: 0
   sinkSpeed: 2.5
@@ -2409,7 +2411,7 @@ SkinnedMeshRenderer:
   m_GameObject: {fileID: 1838167036632890}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
