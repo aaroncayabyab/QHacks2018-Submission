@@ -13,6 +13,7 @@ public class EnemyHealth : MonoBehaviour
 	AudioSource enemyAudio;
 	ParticleSystem hitParticles;
 	CapsuleCollider capsuleCollider;
+	Rigidbody rigidBody;
 	bool isDead;
 	bool isSinking;
 
@@ -20,6 +21,7 @@ public class EnemyHealth : MonoBehaviour
 	void Awake ()
 	{
 		anim = GetComponent <Animator> ();
+		rigidBody = GetComponent<Rigidbody> ();
 		enemyAudio = GetComponent <AudioSource> ();
 		hitParticles = GetComponentInChildren <ParticleSystem> ();
 		capsuleCollider = GetComponent <CapsuleCollider> ();
@@ -32,6 +34,7 @@ public class EnemyHealth : MonoBehaviour
 	{
 		if(isSinking)
 		{
+			rigidBody.constraints = RigidbodyConstraints.None;
 			transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
 		}
 	}
