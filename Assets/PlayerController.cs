@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour {
 	Vector3 movement;
 	Rigidbody playerRigidbody;
 	Animator anim;
-
+	PlayerController instance;
 	void Awake() 
 	{
+		if (instance == null) {
+			instance = this;
+		}
 		playerRigidbody = GetComponent<Rigidbody> ();
 		anim = GetComponent<Animator> ();
 	}
