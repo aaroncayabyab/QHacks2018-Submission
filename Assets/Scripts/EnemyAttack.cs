@@ -10,7 +10,7 @@ public class EnemyAttack : MonoBehaviour
 	Animator anim;
 	GameObject player;
 	PlayerHealth playerHealth;
-	//EnemyHealth enemyHealth;
+	EnemyHealth enemyHealth;
 	bool playerInRange;
 	float timer;
 
@@ -19,7 +19,7 @@ public class EnemyAttack : MonoBehaviour
 	{
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerHealth = player.GetComponent <PlayerHealth> ();
-		//enemyHealth = GetComponent<EnemyHealth>();
+		enemyHealth = GetComponent<EnemyHealth>();
 		anim = GetComponent <Animator> ();
 	}
 

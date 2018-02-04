@@ -1,3 +1,4 @@
+C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\nunit.framework.dll
@@ -20,7 +21,6 @@ C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.VR.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.Advertisements.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.Analytics.dll
-C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.HoloLens.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEngine.Networking.dll

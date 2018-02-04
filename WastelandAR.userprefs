@@ -1,12 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\EnemyManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\GameOverManager.cs">
     <Files>
       <File FileName="Assets\Scripts\EnemyHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Managers\EnemyManager.cs" Line="18" Column="15" />
+      <File FileName="Assets\Scripts\Managers\EnemyManager.cs" Line="31" Column="22" />
       <File FileName="Assets\Scripts\Managers\ScoreManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerShooting.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\GameOverManager.cs" Line="29" Column="20" />
+      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\MenuManager.cs" Line="20" Column="3" />
+      <File FileName="Assets\Scripts\EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyAttack.cs" Line="19" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

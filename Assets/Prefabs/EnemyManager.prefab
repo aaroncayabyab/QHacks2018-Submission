@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4823713753679056}
-  - component: {fileID: 114286219064774750}
-  - component: {fileID: 114245781375927058}
+  - component: {fileID: 114222543728710446}
+  - component: {fileID: 114940615210643470}
   m_Layer: 0
   m_Name: EnemyManager
   m_TagString: Untagged
@@ -34,14 +34,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612134222585560}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 342.64493, y: 193.37227, z: 28.94987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 342.64496, y: 193.37228, z: 28.949871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114245781375927058
+--- !u!114 &114222543728710446
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -52,27 +52,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 114014571091519962, guid: a04716e896f21b641ae56b1f58581c0b,
-    type: 2}
+  playerHealth: {fileID: 0}
+  enemy: {fileID: 1900136786829978, guid: ea18b06671ade974cbb556bc4f4ed4f2, type: 2}
+  spawnTime: 3
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114940615210643470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612134222585560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 0}
   enemy: {fileID: 1264604575614924, guid: e365f17ddcb0aee42a97ca39865e3b4a, type: 2}
   spawnTime: 10
   spawnPoints:
-  - {fileID: 4203990438930384, guid: 0fb71a55125471a4b97a59972bb947ef, type: 2}
---- !u!114 &114286219064774750
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1612134222585560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a99222b1e4a384e923ac7e86efc709, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 114014571091519962, guid: a04716e896f21b641ae56b1f58581c0b,
-    type: 2}
-  enemy: {fileID: 1900136786829978, guid: ea18b06671ade974cbb556bc4f4ed4f2, type: 2}
-  spawnTime: 5
-  spawnPoints:
-  - {fileID: 4051579445927174, guid: 7b50386b133acd642a9de8145e9594e9, type: 2}
-  - {fileID: 4051579445927174, guid: 7b50386b133acd642a9de8145e9594e9, type: 2}
+  - {fileID: 0}
