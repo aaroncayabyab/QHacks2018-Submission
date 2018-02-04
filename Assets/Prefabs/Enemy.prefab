@@ -1227,7 +1227,7 @@ Transform:
   m_GameObject: {fileID: 1900136786829978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.00338, z: 0.1318}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4736593187708360}
   - {fileID: 4226691251154188}
@@ -2360,8 +2360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9f76c3364cfa44c858fde8838b4ba8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyManager: {fileID: 114286219064774750, guid: 49bb073a267e12549b17b0745644f671,
-    type: 2}
   startingHealth: 100
   currentHealth: 0
   sinkSpeed: 2.5
@@ -2526,7 +2524,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1
-  m_Speed: 10
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

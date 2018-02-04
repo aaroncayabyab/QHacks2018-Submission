@@ -1,7 +1,6 @@
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\nunit.framework.dll
-C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
@@ -42,7 +41,6 @@ C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Unity.Legacy.NRefacto
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Unity.UNetWeaver.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Unity.Cecil.Mdb.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
-C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 C:\Users\Aaron\Documents\Github\WastelandAR\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
